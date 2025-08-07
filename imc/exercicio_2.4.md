@@ -16,7 +16,7 @@ escreva("Digite f para feminino ou m para masculino:");
 ler(sexo);
 
 escreva("Digite a Altura:");
-ler(idade);
+ler(altura);
 
 se(sexo == m)
   então
@@ -24,6 +24,8 @@ se(sexo == m)
   senão
     peso <- (62.1* altura) - 44.7;
 fimse;
+
+escreva("Seu peso ideal é: ", peso);
 
 fim
 
